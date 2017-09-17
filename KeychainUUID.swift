@@ -54,7 +54,7 @@ class Keychain {
 
 extension Keychain {
  
-    /// 设备唯一识别码
+    /// Device unique identification 
     public var UUIDString: String {
         let key = String(describing: UUIDKey)
         guard let value = get(key) else {
